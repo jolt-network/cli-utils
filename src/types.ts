@@ -26,10 +26,10 @@ export interface JobWorkableArgs {
   targetBlock: number;
   bundleBurst: number;
   aheadAmount: number;
-  keeperAddress: string;
+  workerAddress: string;
   rpcUrl: string;
   coreMessage$: Observable<CoreMessage>;
-  keeperNonce: number;
+  workerNonce: number;
   fork: GanacheFork;
   block$: Observable<Block>;
   retryId?: string;

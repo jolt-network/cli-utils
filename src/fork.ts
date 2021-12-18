@@ -19,7 +19,7 @@ export async function createForks(amount: number, args: JobWorkableArgs): Promis
         port: ports[index],
         fork_block_number: args.block.number,
         gasLimit: args.block.gasLimit.toHexString(),
-        unlocked_accounts: [args.keeperAddress],
+        unlocked_accounts: [args.workerAddress],
         gasPrice: BigNumber.from(0).toHexString(),
       },
       args.chainId

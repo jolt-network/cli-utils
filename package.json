@@ -1,9 +1,9 @@
 {
-  "name": "@keep3r-network/cli-utils",
-  "version": "1.0.0-beta.1",
-  "description": "Keep3r CLI Utils",
+  "name": "@jolt-network/cli-utils",
+  "version": "1.0.0-alpha.1",
+  "description": "Jolt CLI utils",
   "keywords": [
-    "keep3r",
+    "jolt",
     "cli",
     "utils",
     "job",
@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keep3r-network/cli-utils.git"
+    "url": "git+https://github.com/jolt-network/cli-utils.git"
   },
-  "license": "MIT",
-  "author": "DeFi Wonderland",
+  "license": "GPL-3.0",
+  "author": "Federico Luzzi <fedeluzzi00@gmail.com>",
   "main": "dist/index",
   "types": "dist/index",
   "files": [

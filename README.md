@@ -1,6 +1,6 @@
-# Keep3r CLI Utils
+# Jolt CLI utils
 
-This repository contains all the necessary types and utility functions for both `@keep3r-network/cli-sample-jobs` and `@keep3r-network/cli`.
+This repository contains all the necessary types and utility functions for both `@jolt-network/cli-jobs` and `@jolt-network/cli`.
 
 In this library we can find two important elements:
 

@@ -1,6 +1,6 @@
 {
   "name": "@jolt-network/cli-utils",
-  "version": "1.0.0-alpha.1",
+  "version": "0.1.0",
   "description": "Jolt CLI utils",
   "keywords": [
     "jolt",

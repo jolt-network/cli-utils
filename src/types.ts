@@ -29,6 +29,7 @@ export interface JobWorkableArgs {
   workerAddress: string;
   rpcUrl: string;
   coreMessage$: Observable<CoreMessage>;
+  workerNonce: number;
   fork: GanacheFork;
   block$: Observable<Block>;
   retryId?: string;
